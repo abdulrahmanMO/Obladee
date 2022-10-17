@@ -1,0 +1,391 @@
+* {
+  margin: 0%;
+  padding: 0px;
+  font-family: myFirstFont;
+  transition: 0.3s;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(sources/montserrat/Montserrat-Bold.ttf);
+}
+header {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: 150px;
+  background-color: #333333;
+  margin-left: 0px;
+  position: fixed;
+  z-index: 5;
+}
+ul {
+  list-style: none;
+  display: flex;
+  padding: 0px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 30%;
+  flex-wrap: wrap;
+}
+li {
+  color: #cac8c8;
+  cursor: pointer;
+}
+li:hover {
+  color: #fffcff;
+}
+button {
+  align-self: flex-end;
+  justify-self: flex-end;
+}
+header span {
+  color: #fefefe;
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+  cursor: pointer;
+  margin-right: -9%;
+  margin-left: 15%;
+  margin-block-end: -1%;
+}
+.words {
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 15%;
+  height: 65px;
+  background-color: #dfbb5a;
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 1%;
+  cursor: pointer;
+}
+.words:hover {
+  background-color: #c4a54f;
+}
+#insta {
+  margin-left: 10px;
+  margin-right: -27%;
+  opacity: 60%;
+}
+#insta:hover {
+  opacity: 100%;
+}
+#linked {
+  margin-left: 30%;
+  opacity: 60%;
+}
+#linked:hover {
+  opacity: 100%;
+}
+.first {
+  background-color: #333333;
+  margin-top: 150px;
+  height: 480px;
+  width: 100%;
+  font-size: calc(4.5vw);
+  color: #ffffff;
+  font-family: myFirstFont;
+  display: flex;
+  align-items: center;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.blue {
+  color: #66ceed;
+}
+#first-say {
+  position: relative;
+  left: 6%;
+  margin-top: 100px;
+}
+.second {
+  width: 100%;
+  height: 600px;
+  background-color: #66ceed;
+  display: flex;
+}
+.second-say {
+  font-size: 81px;
+  color: #333333;
+  display: flex;
+  font-size: 60px;
+  margin-top: 100px;
+  position: relative;
+  left: 25%;
+}
+.third-container {
+  background-image: url("sources/nature.jpg");
+  height: 700px;
+  background-size: cover;
+  background-position: center;
+  animation-name: back;
+  animation-duration: 15s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  backdrop-filter: blur(5px);
+
+  width: 100%;
+}
+
+@keyframes back {
+  from {
+    background-size: 100%;
+  }
+  to {
+    background-size: 120%;
+  }
+}
+.fourth-text {
+  font-size: 60px;
+  color: #fefefe;
+}
+footer {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333333;
+  width: 100%;
+  height: 250px;
+  color: #cac8c8;
+}
+.imgtxt {
+  font-size: 60px;
+  color: #fefefe;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.imgtxt:hover {
+  color: #cac8c8;
+}
+h4 {
+  color: #fefefe;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 30px;
+}
+h4:hover {
+  color: #cac8c8;
+}
+.img1 {
+  margin-left: 80px;
+  margin-top: 170px;
+}
+.find {
+  margin: unset;
+  border: none;
+  margin-top: 30px;
+}
+.stick {
+  width: 60px;
+  height: 60px;
+  background-color: #dfbb5a;
+  border: none;
+  border-radius: 35px;
+  position: fixed;
+  right: 30px;
+  bottom: 25px;
+  cursor: pointer;
+}
+.changed {
+  background-color: #333333;
+  color: #fefefe;
+  line-height: 1.4;
+  width: 100%;
+}
+.find4 {
+  margin-top: 40px;
+  border: none;
+  width: 20%;
+  margin-right: 100%;
+}
+.move-fourth {
+  margin-left: 80px;
+  margin-top: 100px;
+}
+.fourth-container {
+  background-color: #333333;
+  height: 700px;
+  width: 100%;
+}
+.fifth-flex {
+  display: flex;
+  align-items: flex-start;
+}
+.img2 {
+  margin-top: 245px;
+}
+.dark {
+  background-image: url("sources/dark.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.blue-back {
+  background-color: #66ceed;
+}
+.final-container {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  color: #333333;
+}
+.see {
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  margin-top: 25px;
+  height: 70px;
+  font-size: large;
+}
+h1 {
+  font-size: 60px;
+}
+.mail {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.mail-input {
+  width: 25%;
+  height: 70px;
+  border: none;
+  outline: none;
+  padding-left: 30px;
+}
+.gray {
+  background-color: #333333;
+  height: 400px;
+}
+.inspire {
+  margin: unset;
+  margin-left: 20px;
+}
+.mail-input:active {
+  border: none;
+  outline: none;
+}
+h2 {
+  color: #fefefe;
+  font-size: 50px;
+}
+h3 {
+  color: #fefefe;
+}
+.gray-text {
+  color: #333333;
+}
+.list-icon {
+  margin-left: 50%;
+  display: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .first,
+  .imgtxt,
+  .second-say,
+  .fourth-text,
+  h1,
+  h2 {
+    font-size: 45px;
+  }
+  h4 {
+    font-size: 25px;
+  }
+  .see {
+    font-size: small;
+  }
+  .second-height {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .first,
+  .imgtxt,
+  .second-say,
+  .fourth-text,
+  h1,
+  h2 {
+    font-size: 25px;
+  }
+  h4 {
+    font-size: 15px;
+  }
+  .see {
+    font-size: smaller;
+  }
+  .first,
+  .third-container,
+  .fourth-container,
+  .final-container {
+    height: 400px;
+  }
+  .iam-pissed {
+    margin-top: -81px;
+  }
+  ul {
+    display: none;
+  }
+  header span {
+    margin-left: 10%;
+  }
+  .word-width {
+    display: none;
+  }
+  #linked,
+  #insta {
+    display: none;
+  }
+  .img2 {
+    margin-top: 140px;
+  }
+  .img1 {
+    margin-top: 110px;
+  }
+  .list-icon {
+    display: inline;
+  }
+  header {
+    height: 110px;
+  }
+  .first {
+    margin-top: 110px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  .word-width {
+    width: 200px;
+  }
+  header span {
+    margin-left: 0%;
+  }
+  #linked {
+    margin-left: 10%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .word-width {
+    width: 200px;
+  }
+  header span {
+    margin-left: 5%;
+  }
+  #linked {
+    margin-left: 20%;
+  }
+}
